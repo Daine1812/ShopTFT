@@ -3,6 +3,8 @@ import Header from './components/Header';
 import HomePage from './pages/HomePage';
 import ContactButton from './components/ContactButton';
 import Footer from './components/Footer';
+import Register from './pages/Register';
+import Login from './pages/Login';
 
 const App = () => {
     const lmhtAccounts = [
@@ -56,6 +58,8 @@ const App = () => {
                         />
                     }
                 />
+                <Route path="/login" element={<Login />} />
+                <Route path="/register" element={<Register />} />
             </Routes>
             <ContactButton />
             <Footer />

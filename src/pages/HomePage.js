@@ -1,5 +1,5 @@
 import Carousel from '../components/Carousel';
-import RechargeForm from '../components/RechargeForm';
+//import RechargeForm from '../components/RechargeForm';
 import AccountSection from '../components/AccountSection';
 
 const HomePage = ({ lmhtAccounts, randomLmhtAccounts, randomDtclAccounts }) => (
@@ -10,11 +10,10 @@ const HomePage = ({ lmhtAccounts, randomLmhtAccounts, randomDtclAccounts }) => (
                 <Carousel />
             </div>
             <div className="md:col-span-1">
-                <RechargeForm />
             </div>
         </div>
         <div className="py-12 bg-black bg-opacity-80">
-            <AccountSection title="LIÊN MINH HUYỀN THOẠI & ĐẤU TRƯỜNG CHÂN LÝ" accounts={lmhtAccounts} />
+            <AccountSection title=" ĐẤU TRƯỜNG CHÂN LÝ" accounts={lmhtAccounts} />
             <AccountSection title="RANDOM LIÊN MINH HUYỀN THOẠI" accounts={randomLmhtAccounts} />
             <AccountSection title="RANDOM ĐẤU TRƯỜNG CHÂN LÝ VN" accounts={randomDtclAccounts} />
         </div>
