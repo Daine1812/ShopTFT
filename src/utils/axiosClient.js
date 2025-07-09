@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'http://localhost:5000', // KHÔNG thêm dấu "/" ở cuối
+  baseURL: 'https://shoptft-backend.onrender.com/', // KHÔNG thêm dấu "/" ở cuối
   headers: {
     'Content-Type': 'application/json',
   },
